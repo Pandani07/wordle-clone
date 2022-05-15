@@ -107,6 +107,33 @@ h1{
   transform: all 0.3s ease-in;
 }
 
+.modal{
+  background: rgba(255, 255, 255, 0.7);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+}
+
+.modal div{
+  max-width: 480px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 10% auto;
+  padding:40px;
+  box-shadow: 2px 2px 10px rgba(0, 0 ,0 ,0.3);
+}
+
+.modal .solution{
+  color:#ff004c;
+  font-weight: bold;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
 
 /* Animations */
 
