@@ -1,4 +1,32 @@
 {
+  "letters":[
+    {"key":"a"},
+    {"key":"b"},
+    {"key":"c"},
+    {"key":"d"},
+    {"key":"e"},
+    {"key":"f"},
+    {"key":"g"},
+    {"key":"h"},
+    {"key":"i"},
+    {"key":"j"},
+    {"key":"k"},
+    {"key":"l"},
+    {"key":"m"},
+    {"key":"n"},
+    {"key":"o"},
+    {"key":"p"},
+    {"key":"q"},
+    {"key":"r"},
+    {"key":"s"},
+    {"key":"t"},
+    {"key":"u"},
+    {"key":"v"},
+    {"key":"w"},
+    {"key":"x"},
+    {"key":"y"},
+    {"key":"z"}
+  ],
   "solutions": [
     { "id": 1, "word": "ninja" },
     { "id": 2, "word": "spade" },
@@ -15,7 +43,6 @@
     { "id": 13, "word": "bling" },
     { "id": 14, "word": "coins" },
     { "id": 15, "word": "hello" },
-
     { "id": 16, "word": "which" },
     { "id": 17, "word": "there" },
     { "id": 18, "word": "their" },
@@ -31,7 +58,6 @@
     { "id": 28, "word": "think" },
     { "id": 29, "word": "every" },
     { "id": 30, "word": "small" },
-
     { "id": 31, "word": "place" },
     { "id": 32, "word": "years" },
     { "id": 33, "word": "found" },
@@ -49,3 +75,4 @@
     { "id": 45, "word": "radio" }
   ]
 }
+

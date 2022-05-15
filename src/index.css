@@ -3,6 +3,7 @@ body {
   font-size: 1em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
+  
 }
 
 h1{
@@ -69,6 +70,43 @@ h1{
   animation-delay: 0.8s;
 }
 
+.row.current > div.filled{
+  animation: jumps 0.2s ease-in-out forwards;
+}
+
+.keypad{
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.keypad > div{
+  margin: 5px;
+  width: 40px;
+  height: 50px;
+  background: #eee;
+  display: inline-block;
+  border-radius: 6px;
+  line-height: 60px;
+}
+
+.keypad > div.green{
+  background: #5ac85a;
+  color: #fff;
+  transform: all 0.3s ease-in;
+}
+
+.keypad > div.yellow{
+  background: #e2cc68;
+  color: #fff;
+  transform: all 0.3s ease-in;
+}
+
+.keypad > div.grey{
+  background: #a1a1a1;
+  color: #fff;
+  transform: all 0.3s ease-in;
+}
+
 
 /* Animations */
 
@@ -97,5 +135,21 @@ h1{
     background: var(--background);
     border-color: var(--border-color);
     color: #fff;
+  }
+}
+
+@keyframes jumps{
+  0%{
+    transform: scale(1);
+    border-color: #ddd;
+  }
+
+  50%{
+    transform: scale(1.2);
+  }
+
+  100%{
+    transform: scale(1);
+    border-color: #333;
   }
 }
