@@ -15,14 +15,14 @@ export default function Wordle({ solution }) {
     if (isCorrect) {
       setTimeout(() => {
         setshowModal(true);
-      }, 1000);
+      }, 2000);
       window.removeEventListener("keyup", handleKeyup);
     }
 
     if (turn > 5) {
       setTimeout(() => {
         setshowModal(true);
-      }, 1000);
+      }, 2000);
       window.removeEventListener("keyup", handleKeyup);
     }
 
@@ -31,7 +31,6 @@ export default function Wordle({ solution }) {
 
   return (
     <div>
-      <div>Solution - {solution}</div>
       <Grid currentGuess={currentGuess} guesses={guesses} turn={turn} />
       <Keypads usedKeys={usedKeys} />
       {showModal && (
